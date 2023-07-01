@@ -27,7 +27,7 @@ const Card = ({ dentist }) => {
       <div className="card">
         <Link key={dentist.id}to={'/detalle/' +dentist.id} style={{ textDecoration: 'none'}}>
         {/* En cada card deberan mostrar en name - username y el id */}
-        <img src=" ../images/doctor.jpg" alt='Doctor' style={{width:'100%'}}/>
+        <img src=" /images/doctor.jpg" alt='Doctor' style={{width:'100%'}}/>
         <h1>{dentist.name}</h1>
         <h2 style={{textAlign:'center'}}>{dentist.username}</h2>
      
